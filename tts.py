@@ -19,7 +19,7 @@ from gtts import gTTS
 from IPython.display import Audio, display
 
 # 3. 사용자로부터 텍스트 입력 받기
-user_text = input("목소리로 바꾸고 싶은 문장을 입력하세요: ")
+user_text = input('목소리로 바꾸고 싶은 문장을 입력하세요: ')
 
 #4. gTTS를 이용하여 음성 생성및 저장
 
@@ -27,5 +27,5 @@ tts = gTTS(text=user_text, lang='ko', slow=False)
 tts.save('output.mp3')
 
 # 5. 코랩에서 즉시 재생
-print(f"\n입력하신 내용: '{user_text}'")
+print(f'입력하신 내용: {user_text}')
 Audio('output.mp3', autoplay=True)
