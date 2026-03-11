@@ -2,7 +2,7 @@
 
 #TTS(Text to Speech)서비스
 
-# 음성 합성을 위한 라이브러리 설치
+# 1. 음성 합성을 위한 라이브러리 설치
 !pip install gTTS
 
 # 2. 라이브러리 불러오기
